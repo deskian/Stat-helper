@@ -45,13 +45,13 @@ class chart extends Component {
   render() {
     return (
       <View style={styles.container}>
-        {/*<View style={styles.barchart}>
+        <View style={styles.barchart}>
           {this.barChart()}
         </View>
         <ScatterPlot width={250} height={250} data={data2}/>
         <StrengthDiagram data={data3} />
         <PieChart />
-        <StackedBarChart data = {data4} />*/}
+        <StackedBarChart data = {data4} />
         {<LineChart data={data5}/>}
       </View>
     );
